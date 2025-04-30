@@ -1,0 +1,4386 @@
+fileFormatVersion: 2
+guid: d235fc51b19aa534d9d8fe8037bd4298
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1477005b323f8d44b8fba42c493d69b3
+      internalID: -625983763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7158028d41ea88148a987206dad9294c
+      internalID: 586246898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30c233db606bf044a10a5e3b5681585
+      internalID: 802674102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_3
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dda2a6ad4b828a4b8f310ebbdbb9b8a
+      internalID: -1697676422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe29d7f91f5c6d469ba24aa50e2bbb2
+      internalID: 1054324257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_5
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c127f6278ba574a980dcf61be45924
+      internalID: -1310691105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_6
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67c902bb1628b44f9a5110eaa4c609f
+      internalID: 508327857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e64a9dca631d294283adb986a706b52
+      internalID: -153116337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a2aef361681db4e947de88787052ca
+      internalID: 1231193479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_9
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d90947a3ae847e4289e623efa7856d1
+      internalID: -1172329270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_10
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac12ceaee471c54398fd19e81049ca1
+      internalID: -420631416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7cc90c21539d1941aaaea7e9c540772
+      internalID: -259558873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_12
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7edf026c875cf84fa9bf6830eea3837
+      internalID: 742470083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75e93593fd55ee4987d5e46c9771ec0
+      internalID: 2145636590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8709dda03943ad244b339c441e311a8b
+      internalID: -1126907234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c3e18503f712945b6c70e76a542292
+      internalID: 1279354526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2471baf792c69da44a92df37d5bcec82
+      internalID: 1018132874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897f933ca0338dc4892a9fccaa2aca20
+      internalID: 1885179840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75255105298b9714499edd58a045e55e
+      internalID: 682809847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484759bd3d458bb45ada77643e6602b7
+      internalID: 603017829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_20
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad49686c5d8db50499046a10ddb2a4ae
+      internalID: 1011912391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb5be1067e98054bab96d26383152ce
+      internalID: 190283342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_22
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94253cdcdcc1a543bb9f3adb561377a
+      internalID: -1639704789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d39629229281f44a99b04281e05936
+      internalID: -861578863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54cec379f6abd5147b6b61e3a7a7e0bc
+      internalID: -1691287977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_25
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8719edf5373d1c448581171c97692aa
+      internalID: 1957078754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_26
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27dc3ca38c39c9b45809fea705de40c1
+      internalID: -1400608061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_27
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4861089e537748a41827653af777c417
+      internalID: -1489008797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_28
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1422011eab2eaf3428a68ccce30a209a
+      internalID: -1292270645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_29
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b973d6c80d46b46974b5af3db539a1
+      internalID: 1782954528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_30
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c4d801746171c44a24b9c161a0cf01
+      internalID: -1859051457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_31
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0285acdfde5505d49acece2c5634c31a
+      internalID: 134074277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_32
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcedefabf75e53a40a66f205dbf8aab1
+      internalID: -1093754981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_33
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bc93cc9e1a1444fa5a4a151d451097
+      internalID: 1740956019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_34
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fcadc1363f7654180fdbe09b68815c
+      internalID: -199882975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_35
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa50d726fc13fa4478e0de514bcab567
+      internalID: -1233965877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a657e3d76c698d478259e18d635bdfa
+      internalID: 1230973826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_37
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7759fd24a8fe6447843efa0b38c8880
+      internalID: 1061964542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_38
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6472ff399a72347ae80dfc859fcffc
+      internalID: 780709166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_39
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e774a19e40e6dc43908fc4c7c646192
+      internalID: 1480756925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6edd8ddb33f5b4d4aa149aadad9a9b6d
+      internalID: -1878045971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_41
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70473848ab2889840ad1cf239e61ec41
+      internalID: 489723392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_42
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8cc5a6fc8bb03743bebf5ec55fd7039
+      internalID: 1481682452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_43
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557a385ed70e130428475493ba518222
+      internalID: -2084347507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7d656d380337947b4624e1c948803e
+      internalID: -413109260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_45
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079a69ed56a022f49825d462bd07efac
+      internalID: 1344577059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_46
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a7be3ca69dc8342b3e7d30f3fbd22b
+      internalID: -1000319653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_47
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06522e66218b6347be8fe98ef10add2
+      internalID: -617195040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_48
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8b0705a4333404d81d76122b504955
+      internalID: 1141944841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_49
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d291ca272bf0d845928199ae48af315
+      internalID: -528228030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_50
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5807086bd98e80446b423ca7d883bea3
+      internalID: -793157281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_51
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e122f38f062c12d4ba8202cc2da642bf
+      internalID: -157698285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_52
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6fd87750084484fb381abc24ae2154
+      internalID: -981925721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_53
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a0cc0899913b1429b0bb9ef43d1e55
+      internalID: 582573237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_54
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e962fd595bee446a6a12100d2fb811
+      internalID: 1540054013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_55
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34686712ddc5d604db2087e78989f87c
+      internalID: 950087195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_56
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b59b4529762b6441a7d9d371f0fae40
+      internalID: 932268000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_57
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0b5e555908ed849bffee394fccd8d2
+      internalID: 1757700581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_58
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26242cd26524a04fa07e758b8f13dfa
+      internalID: 1873677573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_59
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15223aa396afd8a4a8ac72c7d303d880
+      internalID: -1364478421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_60
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e2081b8567878498253ac91d57e7ab
+      internalID: 693597565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_61
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6186203d4433c4f807c33526065a4d
+      internalID: 1186937209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_62
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390566427e03d314fa3c2736dfe016a3
+      internalID: -1968022002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_63
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc99ce6253d88946a8b03b392242b43
+      internalID: 864679921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_64
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817cc08d78ffeae41a12208248fab66a
+      internalID: -1867695122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_65
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a897d18eb594204392538255e6688a0
+      internalID: -2051447959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_66
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba824160a21863949992d160be590c81
+      internalID: -1930658925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_67
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada5dc8278165d5458d40a14d721c47f
+      internalID: 913085689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_68
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9815eff4fb451c247a005eb148d10d05
+      internalID: 302393509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_69
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4f042043c42e340aa3a172e3172fed
+      internalID: 1098489135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_70
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ee4fbd2eb3a6045ae84d4194a1dc49
+      internalID: 1812150410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_71
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c109db5b5337c4ead38cc0714e5622
+      internalID: 1339268768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_72
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c8f1dab6d69ea499b4139c79ddd7c6
+      internalID: 1729072049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_73
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3053aeb711a354e89350f4804e64fa
+      internalID: -157925253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_74
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f0432385a9ff44aaec0e07398f080f
+      internalID: -111788775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_75
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8118e2169a82bdd4abba2df3e1440072
+      internalID: 503685285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_76
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e111984784ca5428af355f68fbee7e
+      internalID: 1525809565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_77
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5822804b49a872746a06f99255a8d0bc
+      internalID: -934200994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_78
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a606ca72fbb9b214c85896a08476eee0
+      internalID: 874391929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_79
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328be23095a6f5d4797b7f7747180c34
+      internalID: 1322715689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_80
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8a1e3d8c1b47740931c0344685e80b
+      internalID: -313920398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_81
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a595d0e0a785e4f899eaeb4bb87aa3
+      internalID: -1215322295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_82
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd47f8bdeb11e6546ba14d83905205a9
+      internalID: 794118742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_83
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c264952a2e7563d4f8019e740f3ec37f
+      internalID: -1371517115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_84
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bac24e20d79f204bb8ade2bd248ec8d
+      internalID: 1628451571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_85
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4af9c63771aeb459f523952f548147
+      internalID: 1193335665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_86
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c882d1252ec89447b8ebfdabedb0933
+      internalID: -856127159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_87
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb54c140d36fd9c47915e45c1d38f2af
+      internalID: -200500228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_88
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9def7f70f6e0c4ebfa9513e2ca1e20
+      internalID: 1561213358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_89
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035d0f0765a3bc24cb18f69fba413815
+      internalID: 601930113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_90
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea72ec1bcb7132f44bfa73907f30c7c6
+      internalID: 954269737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_91
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e1b6f65ef63fe4da8ad9e9e3a3a340
+      internalID: -1844203828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_92
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef649f71fefd27c4ba52b772a99a280d
+      internalID: 1410582620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_93
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a813412f4f3dc458f7613cdc64e06d
+      internalID: -1653017896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_94
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0ccfe2415c0664cb934fc674a857ee
+      internalID: 702638605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_95
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df96dd723646b949ae9fc33e3092f27
+      internalID: -1181770159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_96
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c613bd827d0833b479b602adce32f7c9
+      internalID: 110393524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_97
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a009e8f6cb69111409192c0f7e863a56
+      internalID: -2030000423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_98
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec23ee19e8a6404cadb2af9bb999caf
+      internalID: -877616694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_99
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7880122e1759ca2478d37fe5327f5890
+      internalID: 939018434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_100
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84b1718e0a87a645a433f3e03648d2c
+      internalID: 586588851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_101
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6e81c8e85def0448d625e706264370
+      internalID: -1135534184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_102
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767f17d0f507c9e4bbdae2f3ff863cf1
+      internalID: 1305667100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_103
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a117b8d3847cc6e409416720d7db99be
+      internalID: -1779001433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_104
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e197684848b62847972321ae0829dbe
+      internalID: 1244525464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_105
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4874fced03733104aa86182664187f9f
+      internalID: 2016105408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_106
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19e1aa67a2700d4596de7f0a02868a6
+      internalID: 1559930045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_107
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7120a7c0a11172843bdbc9cbc6f9a688
+      internalID: 276531482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_108
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee8d8939f1dab549823f4203966a68e
+      internalID: 244101069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_109
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d027acea0e4994f488b3750b6f40852a
+      internalID: 1188445295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_110
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1122a9dea570246ae8b3796fc354d7
+      internalID: 1287487852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_111
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5427f86c871d965429ef25ec8d97a9d1
+      internalID: -1516393581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_112
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883bb1966b4b0284180ebffaf48a44e3
+      internalID: 1492891732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_113
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634b8b857e153574d918a4fcfaef5142
+      internalID: -491131369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_114
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8ab628d90e85c4d8add1b41c7effca
+      internalID: -1009592622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_115
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1aceca664485141bb0c4c34e5c1245
+      internalID: -1290666979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_116
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f8d80721b9d454fabee1703168cd1f
+      internalID: -1201485986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_117
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0507736af4eb2a94d82525b154fca695
+      internalID: 1236104195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_118
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9389b30a14d157c41bfdfccd399ea06d
+      internalID: 150152754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_119
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137688fe3126c644496c706e298738b3
+      internalID: -332347384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_120
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14bc966582fc1fc40836ffa98b81008e
+      internalID: -1535587051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_121
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ca7ac4b210f09458e5db144c325668
+      internalID: 816770817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_122
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8ddedd7ae477945b0efed525a06264
+      internalID: 77635759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_123
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73949706acde3fe4cbcf27cff8e76050
+      internalID: -698647566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_124
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b86f3ed495d8e4eb3fa82dd5e0f610
+      internalID: 2023025639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_125
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8af292726fc4e04a8251adfd37b0118
+      internalID: -1709846374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_126
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6fe3cea99e65fc40b0023b181e6dbc4
+      internalID: -1459662641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_127
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800a7ce340bcfa44c8eaa8c8576f6966
+      internalID: -1130781115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_128
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6e30707b241f343b7437587ec2b248
+      internalID: 797849795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_129
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a867da3264d3614fbd6a47d09ffd3c0
+      internalID: -380341196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_130
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51da8ca23643ccd4189878dd39f2a68b
+      internalID: 1044754524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_131
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e244c83eeeaf4b4ba8c832bd52f3fbf
+      internalID: -1225570603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_132
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc6105540ccf844da2051695e54af7e
+      internalID: -246768160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_133
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53ff284400e8d44bb055bc7c3aeb299
+      internalID: 1999216172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_134
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78910c70c0d07c84cb726e28d077d195
+      internalID: -1925834778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_135
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c6d65158de0ee4c949642186f85e24
+      internalID: -1223257902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_136
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3557c15ec3297a4695c0f495c27f06e
+      internalID: 200052252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_137
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33dbbac81861e2c48ab41b5594373748
+      internalID: -1269798921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_138
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac314fcdf8b3c094fad250d1360592d4
+      internalID: -968554003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_139
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738118d1025879d48a0b1860bec080de
+      internalID: 1262521328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_140
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846d80e07612bab4f9f1e5fa35cf3942
+      internalID: 193910719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_141
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c8dcbb33a3a2940ac4bb201b75af19
+      internalID: 891983591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_142
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b991f67829e7970468d2c00d40d12535
+      internalID: -1043020761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_143
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae5a6315bd1ea84688c03db21c1c2da
+      internalID: -19781982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_144
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3612eabb7296af4a96abba255f75fa5
+      internalID: 509191775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_145
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de4dbded1bcaac4d88797a5b01a56d1
+      internalID: 2027081827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_146
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe69f36378fe4340ac8e8055cdc8051
+      internalID: -7564509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_147
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a7589878f930c4bac8693fef1f783b
+      internalID: -107063756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_148
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b5b748c681aaa4aaaf28a0a34d1c20
+      internalID: 128145674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_149
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf07f152690c79344904e23c3024b814
+      internalID: -685190898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_150
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c826dc56637db48bbd8034164e1753
+      internalID: 296728661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_151
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38968de8d5c114146ac55dede3fd2fde
+      internalID: 1222289850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_152
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4bd11f5ca77374a88a820150e03cc6
+      internalID: 168999279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_153
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c6fe98ecf8b8f45a26ca597c1be799
+      internalID: -1748158931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_154
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31931da2e2a8b74da38b06174780da1
+      internalID: 2007018295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_155
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f4130a1e9e9fc4598b2f0a190d988f
+      internalID: -1306637490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_156
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3651700807b96c44b82709afdc748351
+      internalID: -2083144883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_157
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07913ddaf3311234e99e5587b52a1ac8
+      internalID: -2106460830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_158
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbdb67edee1f734b944983fa05cc2ef
+      internalID: 1095507850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_159
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703495c0c1d9f4548a2e6fbf899e63b9
+      internalID: 779260047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_160
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec034e4589e6494419e9e3127b5c961c
+      internalID: -1822771988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_161
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970f35a918f71e241928481c693f7cc5
+      internalID: 517481367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_162
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3739ea05203bc46bdf370f60c082ec
+      internalID: 634450072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_163
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e506cb207ba05147bc71771ea508ca9
+      internalID: 101529712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_164
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb802dff2ed3588499b099d8a1a4c8ad
+      internalID: -327855015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_165
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0fc635a6d2b8b41b443c6376383647
+      internalID: -16729345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_166
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5917308fe7d3b044928ad69802ab685
+      internalID: 29775199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_167
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7cb6a1195bb5d40a11aa92e2a5c78f
+      internalID: -536114071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_168
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effd3dc30b721c44689a997770af52de
+      internalID: -1892274689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_169
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e988cb8a8c25714d8a9eaddc8ee87c7
+      internalID: 2135338371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_170
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99aa3e705c9eb8e429163a2e1177100d
+      internalID: 933583867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_171
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3556df6e9c1b341973f87321176512
+      internalID: 1493820087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_172
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3bd286414b8394bb9c7b20695176aa
+      internalID: 2105634501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_173
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945c754403af26148affb0a199f847a1
+      internalID: -789545652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_174
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229c5361ca8b5f94da0277167e19a38d
+      internalID: -1287767696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_175
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979ed2cab92a8b34c8aac9171638dc7e
+      internalID: -804240189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_176
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5621413a7cd1775478deba912d01201c
+      internalID: 1506526919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_177
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264d7d55190f25c4c9a4d889b1ca534a
+      internalID: -1429072820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_178
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad76576f26e7ba48a044f10d5c8ea4d
+      internalID: -1624489494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_179
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce0dc621bf2b794e94a61066a28d5a1
+      internalID: -1418281715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_180
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d685e373697034f83db39ec2093e84
+      internalID: 322709374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_181
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8b0faa508a85646a4ae6f22d1f49f6
+      internalID: -1039482736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_182
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8dec86ded94fa4ba958c8647f93277
+      internalID: 224627302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_183
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265a0c72e5bef304c931bf1bfd27b1b8
+      internalID: -214264073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_184
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6cd3fcee4aed4244ab0c05d1b7a834e
+      internalID: 822854468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_185
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2fb8a9f2cb2874682f88388ab9199f
+      internalID: 1096112059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_186
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45c4f3d8987a7f46bb4c2f8e4b9751c
+      internalID: -1745459474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_187
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8294e121fcc1c1c48bd054f9701427b9
+      internalID: 2078443840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_188
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6f387706f7b6543affb056387f8b49
+      internalID: -1937814507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_189
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa324a09636ede409921b4dd98caf7f
+      internalID: 517380075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_190
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5793b5f0a3159df4396fa191e25d3222
+      internalID: -34516222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_191
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba1b7904e91c494f85b3a2b6b01f859
+      internalID: 1441497332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_192
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac9684167861ad49b2edf10f203e281
+      internalID: -859922802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_0: -625983763
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_1: 586246898
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_10: -420631416
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_100: 586588851
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_101: -1135534184
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_102: 1305667100
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_103: -1779001433
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_104: 1244525464
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_105: 2016105408
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_106: 1559930045
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_107: 276531482
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_108: 244101069
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_109: 1188445295
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_11: -259558873
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_110: 1287487852
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_111: -1516393581
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_112: 1492891732
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_113: -491131369
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_114: -1009592622
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_115: -1290666979
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_116: -1201485986
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_117: 1236104195
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_118: 150152754
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_119: -332347384
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_12: 742470083
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_120: -1535587051
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_121: 816770817
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_122: 77635759
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_123: -698647566
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_124: 2023025639
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_125: -1709846374
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_126: -1459662641
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_127: -1130781115
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_128: 797849795
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_129: -380341196
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_13: 2145636590
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_130: 1044754524
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_131: -1225570603
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_132: -246768160
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_133: 1999216172
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_134: -1925834778
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_135: -1223257902
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_136: 200052252
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_137: -1269798921
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_138: -968554003
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_139: 1262521328
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_14: -1126907234
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_140: 193910719
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_141: 891983591
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_142: -1043020761
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_143: -19781982
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_144: 509191775
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_145: 2027081827
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_146: -7564509
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_147: -107063756
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_148: 128145674
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_149: -685190898
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_15: 1279354526
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_150: 296728661
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_151: 1222289850
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_152: 168999279
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_153: -1748158931
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_154: 2007018295
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_155: -1306637490
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_156: -2083144883
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_157: -2106460830
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_158: 1095507850
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_159: 779260047
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_16: 1018132874
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_160: -1822771988
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_161: 517481367
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_162: 634450072
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_163: 101529712
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_164: -327855015
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_165: -16729345
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_166: 29775199
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_167: -536114071
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_168: -1892274689
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_169: 2135338371
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_17: 1885179840
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_170: 933583867
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_171: 1493820087
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_172: 2105634501
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_173: -789545652
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_174: -1287767696
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_175: -804240189
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_176: 1506526919
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_177: -1429072820
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_178: -1624489494
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_179: -1418281715
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_18: 682809847
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_180: 322709374
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_181: -1039482736
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_182: 224627302
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_183: -214264073
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_184: 822854468
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_185: 1096112059
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_186: -1745459474
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_187: 2078443840
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_188: -1937814507
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_189: 517380075
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_19: 603017829
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_190: -34516222
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_191: 1441497332
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_192: -859922802
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_2: 802674102
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_20: 1011912391
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_21: 190283342
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_22: -1639704789
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_23: -861578863
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_24: -1691287977
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_25: 1957078754
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_26: -1400608061
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_27: -1489008797
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_28: -1292270645
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_29: 1782954528
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_3: -1697676422
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_30: -1859051457
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_31: 134074277
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_32: -1093754981
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_33: 1740956019
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_34: -199882975
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_35: -1233965877
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_36: 1230973826
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_37: 1061964542
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_38: 780709166
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_39: 1480756925
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_4: 1054324257
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_40: -1878045971
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_41: 489723392
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_42: 1481682452
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_43: -2084347507
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_44: -413109260
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_45: 1344577059
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_46: -1000319653
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_47: -617195040
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_48: 1141944841
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_49: -528228030
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_5: -1310691105
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_50: -793157281
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_51: -157698285
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_52: -981925721
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_53: 582573237
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_54: 1540054013
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_55: 950087195
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_56: 932268000
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_57: 1757700581
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_58: 1873677573
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_59: -1364478421
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_6: 508327857
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_60: 693597565
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_61: 1186937209
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_62: -1968022002
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_63: 864679921
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_64: -1867695122
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_65: -2051447959
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_66: -1930658925
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_67: 913085689
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_68: 302393509
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_69: 1098489135
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_7: -153116337
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_70: 1812150410
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_71: 1339268768
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_72: 1729072049
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_73: -157925253
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_74: -111788775
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_75: 503685285
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_76: 1525809565
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_77: -934200994
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_78: 874391929
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_79: 1322715689
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_8: 1231193479
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_80: -313920398
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_81: -1215322295
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_82: 794118742
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_83: -1371517115
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_84: 1628451571
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_85: 1193335665
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_86: -856127159
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_87: -200500228
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_88: 1561213358
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_89: 601930113
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_9: -1172329270
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_90: 954269737
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_91: -1844203828
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_92: 1410582620
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_93: -1653017896
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_94: 702638605
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_95: -1181770159
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_96: 110393524
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_97: -2030000423
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_98: -877616694
+      sonic_the_hegdehog_tileset_by_gamepixel_d6dyv38_99: 939018434
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
