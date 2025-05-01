@@ -19,7 +19,7 @@ public class PlayerLife : MonoBehaviour
     [SerializeField] GameObject ringPrefab;
     [SerializeField] AudioSource DamageAudioSource;
 
-    private void Start()
+    void Start()
     {
         gameManager = GameManager.Instance;
         animator = GetComponent<Animator>();

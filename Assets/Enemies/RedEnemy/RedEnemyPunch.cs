@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class EnemyPunch : MonoBehaviour
 {
-    public bool TouchPlayer { get; private set; }
+    public bool TouchPlayer { get; set; }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
@@ -14,7 +14,7 @@ public class EnemyPunch : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {

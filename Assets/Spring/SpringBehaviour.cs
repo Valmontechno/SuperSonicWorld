@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class SpringBehaviour : MonoBehaviour
 {
-    [SerializeField] private float launchForce;
+    [SerializeField] float launchForce;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {

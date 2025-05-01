@@ -5,12 +5,12 @@ public abstract class Collectible : MonoBehaviour
 {
     protected new Collider2D collider;
 
-    private void Start()
+    void Start()
     {
         collider = GetComponent<Collider2D>();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {

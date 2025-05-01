@@ -353,15 +353,15 @@ public partial class @Inputs: IInputActionCollection2, IDisposable
     }
 
     // InGame
-    private readonly InputActionMap m_InGame;
-    private List<IInGameActions> m_InGameActionsCallbackInterfaces = new List<IInGameActions>();
-    private readonly InputAction m_InGame_Move;
-    private readonly InputAction m_InGame_Jump;
-    private readonly InputAction m_InGame_Pause;
-    private readonly InputAction m_InGame_Balled;
+    readonly InputActionMap m_InGame;
+    List<IInGameActions> m_InGameActionsCallbackInterfaces = new List<IInGameActions>();
+    readonly InputAction m_InGame_Move;
+    readonly InputAction m_InGame_Jump;
+    readonly InputAction m_InGame_Pause;
+    readonly InputAction m_InGame_Balled;
     public struct InGameActions
     {
-        private @Inputs m_Wrapper;
+        @Inputs m_Wrapper;
         public InGameActions(@Inputs wrapper) { m_Wrapper = wrapper; }
         public InputAction @Move => m_Wrapper.m_InGame_Move;
         public InputAction @Jump => m_Wrapper.m_InGame_Jump;
@@ -390,7 +390,7 @@ public partial class @Inputs: IInputActionCollection2, IDisposable
             @Balled.canceled += instance.OnBalled;
         }
 
-        private void UnregisterCallbacks(IInGameActions instance)
+        void UnregisterCallbacks(IInGameActions instance)
         {
             @Move.started -= instance.OnMove;
             @Move.performed -= instance.OnMove;
@@ -423,12 +423,12 @@ public partial class @Inputs: IInputActionCollection2, IDisposable
     public InGameActions @InGame => new InGameActions(this);
 
     // Menu
-    private readonly InputActionMap m_Menu;
-    private List<IMenuActions> m_MenuActionsCallbackInterfaces = new List<IMenuActions>();
-    private readonly InputAction m_Menu_Unpause;
+    readonly InputActionMap m_Menu;
+    List<IMenuActions> m_MenuActionsCallbackInterfaces = new List<IMenuActions>();
+    readonly InputAction m_Menu_Unpause;
     public struct MenuActions
     {
-        private @Inputs m_Wrapper;
+        @Inputs m_Wrapper;
         public MenuActions(@Inputs wrapper) { m_Wrapper = wrapper; }
         public InputAction @Unpause => m_Wrapper.m_Menu_Unpause;
         public InputActionMap Get() { return m_Wrapper.m_Menu; }
@@ -445,7 +445,7 @@ public partial class @Inputs: IInputActionCollection2, IDisposable
             @Unpause.canceled += instance.OnUnpause;
         }
 
-        private void UnregisterCallbacks(IMenuActions instance)
+        void UnregisterCallbacks(IMenuActions instance)
         {
             @Unpause.started -= instance.OnUnpause;
             @Unpause.performed -= instance.OnUnpause;

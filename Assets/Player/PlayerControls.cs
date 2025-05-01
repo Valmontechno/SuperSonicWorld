@@ -4,28 +4,26 @@ using UnityEngine.InputSystem;
 
 public class PlayerControls : MonoBehaviour
 {
-    private Inputs inputs;
+    Inputs inputs;
 
-    private Rigidbody2D rb;
-
-    [Header("Player")]
-    [SerializeField] private GameObject standingPlayer;
-    [SerializeField] private GameObject balledPlayer;
+    Rigidbody2D rb;
 
     [Header("Move")]
-    [SerializeField] private float accel;
-    [SerializeField] private float speedMax;
+    [SerializeField] float accel;
+    [SerializeField] float speedMax;
 
     [Header("Jump")]
-    [SerializeField] private float jumpForce;
-    [SerializeField] private int jumpsMax;
-    private int jumpsCount;
-    [SerializeField] private float coyoteTime;
-    private bool isGrounded;
-    private Coroutine coyoteTimeCoroutine;
-    [SerializeField] private float jumpRayCastDistance;
+    [SerializeField] float jumpForce;
+    [SerializeField] int jumpsMax;
+    int jumpsCount;
+    [SerializeField] float coyoteTime;
+    Coroutine coyoteTimeCoroutine;
+    bool coyoteCanJump = false;
+    [SerializeField] float jumpRayCastDistance;
+    [SerializeField] LayerMask groundLayerMask;
+    bool isGrounded;
 
-    private void Awake()
+    void Awake()
     {
         inputs = new Inputs();
         inputs.InGame.Enable();
@@ -33,13 +31,18 @@ public class PlayerControls : MonoBehaviour
         inputs.InGame.Jump.started += JumpStart;
         inputs.InGame.Jump.canceled += JumpEnd;
     }
-
-    private void Start()
+    void OnDestroy()
     {
-        rb = GetComponentInParent<Rigidbody2D>();
+        inputs.InGame.Jump.started -= JumpStart;
+        inputs.InGame.Jump.canceled -= JumpEnd;
     }
 
-    private void Update()
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
+
+    void Update()
     {
         CheckGrounded();
         Move();
@@ -47,10 +50,31 @@ public class PlayerControls : MonoBehaviour
 
     public void CheckGrounded()
     {
-        isGrounded = Physics2D.Raycast(transform.position, Vector2.down, jumpRayCastDistance);
+        bool newGrounded = Physics2D.Raycast(transform.position, Vector2.down, jumpRayCastDistance, groundLayerMask);
+
+        if (newGrounded != isGrounded)
+        {
+            if (newGrounded) // OnCollisionEnter2D
+            {
+                jumpsCount = 0;
+                if (coyoteTimeCoroutine != null)
+                {
+                    StopCoroutine(coyoteTimeCoroutine);
+                }
+
+                inputs.InGame.Move.Enable();
+                inputs.InGame.Jump.Enable();
+            }
+            else if (gameObject.activeInHierarchy) // OnCollisionExit2D
+            {
+                coyoteTimeCoroutine = StartCoroutine(CoyoteTime());
+            }
+        }
+
+        isGrounded = newGrounded;
     }
 
-    private void Move()
+    void Move()
     {
         float velocityX = rb.velocity.x;
         velocityX += inputs.InGame.Move.ReadValue<float>() * accel * Time.deltaTime;
@@ -58,62 +82,35 @@ public class PlayerControls : MonoBehaviour
         rb.velocity = new(velocityX, rb.velocity.y);
     }
 
-    private void OnDestroy()
+    void JumpStart(InputAction.CallbackContext context)
     {
-        inputs.InGame.Jump.started -= JumpStart;
-        inputs.InGame.Jump.canceled -= JumpEnd;
-    }
-
-    private void JumpStart(InputAction.CallbackContext context)
-    {
-        if (isGrounded && jumpsCount == 0)
+        // Si touche le sol, ou coyoteTime, ou double saut
+        if (isGrounded || coyoteCanJump || (0 < jumpsCount && jumpsCount < jumpsMax))
         {
             jumpsCount++;
-            rb.velocity = new(rb.velocity.x, 0f);
-            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-        }
-        else if (0 < jumpsCount && jumpsCount < jumpsMax)
-        {
-            jumpsCount++;
+            coyoteCanJump = false;
             rb.velocity = new(rb.velocity.x, 0f);
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
     }
 
-    private void JumpEnd(InputAction.CallbackContext context)
+    void JumpEnd(InputAction.CallbackContext context)
     {
+        // Arrêtez de sauter quand le bouton est relâché
         //if (rb.velocity.y > 0f)
         //{
         //    rb.velocity = new(rb.velocity.x, 0f);
         //}
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    IEnumerator CoyoteTime()
     {
-        if (collision.collider.gameObject.layer == 3)
+        if (jumpsCount == 0)
         {
-            jumpsCount = 0;
-            if (coyoteTimeCoroutine != null)
-            {
-                StopCoroutine(coyoteTimeCoroutine);
-            }
-
-            inputs.InGame.Move.Enable();
-            inputs.InGame.Jump.Enable();
+            coyoteCanJump = true;
+            yield return new WaitForSeconds(coyoteTime);
+            coyoteCanJump = false;
         }
-    }
-
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        if (gameObject.activeInHierarchy && collision.collider.gameObject.layer == 3)
-        {
-            coyoteTimeCoroutine = StartCoroutine(CoyoteTime());
-        }
-    }
-
-    private IEnumerator CoyoteTime()
-    {
-        yield return new WaitForSeconds(coyoteTime);
     }
 
     public void OnSpring()
@@ -121,16 +118,4 @@ public class PlayerControls : MonoBehaviour
         inputs.InGame.Move.Disable();
         inputs.InGame.Jump.Disable();
     }
-
-    //public void Balled(InputAction.CallbackContext context)
-    //{
-    //    standingPlayer.SetActive(false);
-    //    balledPlayer.SetActive(true);
-    //}
-
-    //public void Stand(InputAction.CallbackContext context)
-    //{
-    //    standingPlayer.SetActive(true);
-    //    balledPlayer.SetActive(false);
-    //}
 }

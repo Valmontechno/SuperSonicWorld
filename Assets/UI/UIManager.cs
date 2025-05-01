@@ -3,16 +3,16 @@ using UnityEngine;
 
 public class UIManager : MonoBehaviour
 {
-    private GameManager gameManager;
+    GameManager gameManager;
 
     [Space(10)]
-    [SerializeField] private TextMeshProUGUI ringCouter;
-    [SerializeField] private Animator ringCounterAnimator;
+    [SerializeField] TextMeshProUGUI ringCouter;
+    [SerializeField] Animator ringCounterAnimator;
 
     [Space(10)]
-    [SerializeField] private Animator damageAnimator;
+    [SerializeField] Animator damageAnimator;
 
-    private void Start()
+    void Start()
     {
         gameManager = GameManager.Instance;
 
@@ -20,7 +20,7 @@ public class UIManager : MonoBehaviour
         gameManager.DamageTaken += OnDamageTaken;
     }
 
-    private void OnDestroy()
+    void OnDestroy()
     {
         gameManager.RingChanghed -= UpdateRingCounter;
         gameManager.DamageTaken -= OnDamageTaken;

@@ -3,14 +3,14 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager Instance { get; private set; }
+    public static GameManager Instance { get; set; }
 
-    public int Rings {  get; private set; }
+    public int Rings {  get; set; }
 
     public Action<int> RingChanghed;
     public Action DamageTaken;
 
-    private void Awake()
+    void Awake()
     {
         if (Instance == null)
         {

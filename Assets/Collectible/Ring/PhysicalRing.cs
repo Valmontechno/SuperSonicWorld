@@ -9,7 +9,7 @@ public class PhysicalRing : MonoBehaviour
     [SerializeField] float warnDelay;
     [SerializeField] float destroyDelay;
 
-    private void Start()
+    void Start()
     {
         StartCoroutine(ActivateComponent());
     }

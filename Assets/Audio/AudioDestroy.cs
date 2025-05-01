@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(AudioSource))]
 public class AudioDestroy : MonoBehaviour
 {
-    private void Start()
+    void Start()
     {
         Destroy(gameObject, GetComponent<AudioSource>().clip.length + 0.5f);
     }

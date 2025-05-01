@@ -3,10 +3,10 @@ using UnityEngine;
 
 public class BillBall : MonoBehaviour
 {
-    [SerializeField] private float speed;
-    [SerializeField] private float destroyCameraDistance;
+    [SerializeField] float speed;
+    [SerializeField] float destroyCameraDistance;
 
-    private void Update()
+    void Update()
     {
         transform.position += speed * Time.deltaTime * transform.right.normalized;
 

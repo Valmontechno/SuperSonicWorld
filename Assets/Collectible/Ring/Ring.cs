@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Ring : Collectible
 {
-    [SerializeField] private GameObject ringSound;
+    [SerializeField] GameObject ringSound;
 
     protected override void Collect()
     {

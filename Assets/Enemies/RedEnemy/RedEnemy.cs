@@ -18,7 +18,7 @@ public class Enemy : MonoBehaviour
 
     Animator animator;
 
-    private void Start()
+    void Start()
     {
         playerLife = FindFirstObjectByType<PlayerLife>();
         playerTransform = playerLife.transform;
@@ -28,7 +28,7 @@ public class Enemy : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    private void Update()
+    void Update()
     {
         if (Vector3.Distance(transform.position, playerTransform.position) <= attackDistance)
         {
@@ -67,7 +67,7 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    //private void OnTriggerEnter2D(Collider2D collision)
+    //void OnTriggerEnter2D(Collider2D collision)
     //{
     //    if (collision.gameObject.CompareTag("Player"))
     //    {
