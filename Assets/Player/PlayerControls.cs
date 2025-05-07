@@ -1,6 +1,8 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using static UnityEditor.Experimental.GraphView.GraphView;
+using UnityEngine.UI;
 
 public class PlayerControls : MonoBehaviour
 {
@@ -22,6 +24,8 @@ public class PlayerControls : MonoBehaviour
     [SerializeField] float jumpRayCastDistance;
     [SerializeField] LayerMask groundLayerMask;
     bool isGrounded;
+    Vector2 groundTangent = Vector2.right;
+
 
     void Awake()
     {
@@ -48,9 +52,37 @@ public class PlayerControls : MonoBehaviour
         Move();
     }
 
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (groundLayerMask == (groundLayerMask | (1 << collision.gameObject.layer)))
+        {
+            Vector2 normal = collision.contacts[0].normal.normalized;
+
+            if (Mathf.Abs(normal.x) <= 0.5f)
+            {
+                groundTangent = new Vector2(normal.y, -normal.x);
+            } else
+            {
+                groundTangent = Vector2.right;
+            }
+
+            //Vector2 normal = collision.contacts[0].normal;
+            //normal = new(Mathf.Abs(normal.x), Mathf.Abs(normal.y));
+            //groundTangent = Vector2.Perpendicular(normal);
+            //groundTangent.Normalize();
+            //print(groundTangent);
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        groundTangent = Vector2.right;
+    }
+
     public void CheckGrounded()
     {
-        bool newGrounded = Physics2D.Raycast(transform.position, Vector2.down, jumpRayCastDistance, groundLayerMask);
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, jumpRayCastDistance, groundLayerMask);
+        bool newGrounded = hit;
 
         if (newGrounded != isGrounded)
         {
@@ -76,10 +108,16 @@ public class PlayerControls : MonoBehaviour
 
     void Move()
     {
-        float velocityX = rb.velocity.x;
-        velocityX += inputs.InGame.Move.ReadValue<float>() * accel * Time.deltaTime;
-        velocityX = Mathf.Clamp(velocityX, -speedMax, speedMax);
-        rb.velocity = new(velocityX, rb.velocity.y);
+        Vector2 velocity = rb.velocity;
+        velocity += groundTangent * inputs.InGame.Move.ReadValue<float>() * accel * Time.deltaTime;
+        velocity.x = Mathf.Clamp(velocity.x, -speedMax, speedMax);
+        rb.velocity = velocity;
+        print(groundTangent);
+
+        //float velocityX = rb.velocity.x;
+        //velocityX += inputs.InGame.Move.ReadValue<float>() * accel * Time.deltaTime;
+        //velocityX = Mathf.Clamp(velocityX, -speedMax, speedMax);
+        //rb.velocity = new(velocityX, rb.velocity.y);
     }
 
     void JumpStart(InputAction.CallbackContext context)
